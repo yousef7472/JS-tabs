@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section.container {
+    padding: 50px;
+    text-align: center;
+}
+.container h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+.container p {
+    font-size: 18px;
+    color: gray;
+}
+
+.container .parent {
+    display: flex;
+    margin: 80px 20px;
+}
+.container .parent img {
+    width: 100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container .buttons {
+    display: flex;
+    padding: 0 50px;
+}
+.container .parent .content button {
+    padding: 15px 40px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.335);
+    margin: 0px 0px 20px;
+    letter-spacing: 4px;
+}
+.container .parent .content button:focus{
+    background-color: rgba(255, 255, 255, 0.279);
+    color: rgb(36, 152, 172);
+}
+.words div{
+    display: none;
+    text-align: left;
+    padding: 20px 35px;
+}
+
+.words .active {
+    display: block;
+}
